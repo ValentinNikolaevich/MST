@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Landing</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container flex">
+      <a href="/" class="header__logo logo"><img src="images/svg/logo.svg" alt="Logo" ></a>
+      <nav class="header__nav nav flex">
+        <ul class="nav__list list-reset flex">
+          <li class="nav_item">
+            <a class="nav__link" href="/">HOME</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav__link" href="#features">FEATURES</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav__link" href="#contacts">CONTACTS</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container hero flex">
+      <div class="hero__content">
+        <h1 class="hero__title text-reset">Luxury Apartments for Sale</h1>
+        <p class="hero__descr text-reset">Discover the best real estate investment opportunities.</p>
+        <ul class="hero__list list-reset flex-clmn">
+          <li class="hero__list-item">Up to <strong>$10,000</strong> discount</li>
+          <li class="hero__list-item"><strong>30%</strong> return on investment</li>
+          <li class="hero__list-item"><strong>17%</strong> annual rental yield</li>
+        </ul>
+        <a href="#contacts" class="hero__btn btn-light">ORDER</a>
+      </div>
+    </div>
+
+    <section class="features" id="features">
+      <div class="features__container container flex-clmn">
+        <div class="features__content flex-clmn">
+          <ul class="features__list list-reset flex-clmn">
+            <li class="features__item">
+              <h3 class="features__descr text-reset">
+                Exclusive waterfront properties with breathtaking views and private docks.
+              </h3>
+            </li>
+            <li class="features__item">
+              <h3 class="features__descr text-reset">
+                Luxury interiors with smart home features.
+              </h3>
+            </li>
+            <li class="features__item">
+              <h3 class="features__descr text-reset">
+                High-end modern architecture.
+              </h3>
+            </li>
+            <li class="features__item">
+              <h3 class="features__descr text-reset">
+                Spacious penthouses featuring panoramic cityscapes and premium amenities.
+              </h3>
+            </li>
+          </ul>
+          <a href="#contacts" class="features__btn btn-light">ORDER</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="contacts__container container">
+        <div class="contacts__back">
+          <div class="contacts__content">
+            <h2 class="contacts__title text-reset">Request a callback today</h2>
+            <form class="contacts__form flex-clmn" action="#" method="POST">
+              <input class="contacts__input" type="text" name="name" placeholder="Name" required>
+              <input class="contacts__input" type="email" name="email" placeholder="Email" required>
+              <label class="contacts__checkbox">
+                <input type="checkbox" name="privacy" required>
+                <span class="contacts__checkmark">
+                  I accept <a href="#">Privacy Policy</a>
+                </span>
+              </label>
+              <button type="submit" class="contacts__btn btn">SUBMIT FORM</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container ">
+      <nav class="footer__nav nav flex">
+        <ul class="nav__list list-reset flex">
+          <li class="nav_item">
+            <a class="nav__link" href="/">HOME</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav__link" href="#features">FEATURES</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav__link" href="#contacts">CONTACTS</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__content flex">
+        <div class="footer__left flex-clmn">
+          <a href="/" class="footer__logo logo"><img src="images/svg/logo.svg" alt="Logo" ></a>
+          <span class="footer__text">&copy; 2025 Real Estate. All rights reserved.</span>
+        </div>
+        <div class="footer__center flex-clmn">
+          <ul class="footer__social social list-reset flex">
+            <li class="social__item">
+              <a href="#"><img src="images/svg/ins.svg" alt="Logo Instagram"></a>
+            </li>
+            <li class="social__item">
+              <a href="#"><img src="images/svg/tik.svg" alt="Logo TikTok"></a>
+            </li>
+            <li class="social__item">
+              <a href="#"><img src="images/svg/link.svg" alt="Logo LinkedIn"></a>
+            </li>
+            <li class="social__item">
+              <a href="#"><img src="images/svg/face.svg" alt="Logo Facebook"></a>
+            </li>
+            <li class="social__item">
+              <a href="#"><img src="images/svg/tel.svg" alt="Logo Telegram"></a>
+            </li>
+            <li class="social__item">
+              <a href="#"><img src="images/svg/you.svg" alt="Logo YouTube"></a>
+            </li>
+          </ul>
+          <a href="#" class="footer__text">Privacy Policy</a>
+        </div>
+        <div class="footer__right flex-clmn">
+          <a href="#contacts" class="footer__btn btn-light">ORDER</a>
+          <a href="#" class="footer__text">Terms of use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
